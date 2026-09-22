@@ -1,0 +1,4 @@
+*.shrink-guard.audit.tsv
+*.rejected-*
+
+.DS_Store

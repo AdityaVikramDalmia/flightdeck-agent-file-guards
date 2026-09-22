@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+set -u
+
+# Copy or symlink this file to .git/hooks/pre-commit, then adjust the command path.
+repo_root=$(git rev-parse --show-toplevel) || exit 1
+"$repo_root/bin/nul-lint.sh" --staged
