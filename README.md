@@ -1,5 +1,10 @@
 # Agent File Guards
 
+> **Deprecated for new Claude Code integrations — 2026-09-22.** Retained as an
+> Apache-2.0 reference project. Public launch remains deferred and the repository
+> remains private. This is a maintainer status decision, not a claim that Claude
+> Code replaces every capability. No ongoing feature work or support is promised.
+
 Three small, independently usable command-line guards for files touched by agents and automation:
 
 - `shrink-guard.sh` owns a replacement and rejects unexpectedly small or empty content before it reaches the target.
@@ -81,3 +86,10 @@ The tests create only synthetic fixtures under the system temporary directory. T
 ## Current verification
 
 The 111 synthetic assertions cover successful scans, producer/read failures, interrupted checks, symlink ancestors, JSON control characters, Unicode, and independent installation. They pass on macOS 26.2 arm64 with both the system Bash 3.2.57 and Homebrew Bash 5.3.9. This README does not claim results on platforms that have not been tested for the current revision.
+
+## License and maintenance
+
+Copyright 2026 Aditya Dalmia. Licensed under [Apache-2.0](LICENSE), with
+[attribution](NOTICE) and [source provenance](PROVENANCE.md). Public launch is
+deferred; repository access remains private. See the [release preparation index](docs/release/README.md),
+[contributing guide](CONTRIBUTING.md), and [security contact](SECURITY.md).

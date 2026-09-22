@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+# Deprecated reference example for new Claude Code integrations (2026-09-22).
 set -eu
 
 # Example: generate to stdout while shrink-guard owns the only write to the target.

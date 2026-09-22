@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+# Deprecated reference example for new Claude Code integrations (2026-09-22).
 set -u
 
 # Copy or symlink this file to .git/hooks/pre-commit, then adjust the command path.
